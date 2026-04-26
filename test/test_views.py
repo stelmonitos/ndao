@@ -3,6 +3,7 @@ from hello_world import app
 from hello_world.formater import SUPPORTED
 from hello_world.views import moje_imie
 
+
 class FlaskrTestCase(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
